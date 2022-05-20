@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <meta name="keywords" content="THR3eCATO, thr3ecato, password manager, random password generator, strong password generator, random password, secure password generator, password generator online, password gen, create password, passphrase generator, easy 8 character password, online pass gen, generator of passwords">
+      <title>Password Generator</title>
+      <link rel="shortcut icon" type="image/ico" href="/src/favicon.ico"/>
+      <link rel="stylesheet" href="style.css">
+    </head>
+  <body>
+    <div class="pw-container">
+      <div class="pw-header">
+        <div class="bigheader">
+          <lable for="bigheader">PASSWORD GENERATOR</lable>
+        </div>
+        <div class="pw">
+          <span id="pw">Password Here</span>
+          <button id="copy">Copy</button>
+        </div>
+      </div>
+      <div class="pw-body">
+        <div class="form-control">
+          <lable for="length">Password Length</lable>
+          <input id="len" value="8" type="number" min="8" max="30">
+        </div>
+        <div class="form-control">
+          <lable for="upper">Contain Uppercase Letters</lable>
+          <input id="upper" type="checkbox">
+        </div>
+        <div class="form-control">
+          <lable for="lower">Contain Lowercase Letters</lable>
+          <input id="lower" type="checkbox">
+        </div>
+        <div class="form-control">
+          <lable for="number">Contain Numbers </lable>
+          <input id="number" type="checkbox">
+        </div>
+        <div class="form-control">
+          <lable for="symbol">Contain Symbols</lable>
+          <input id="symbol" type="checkbox">
+        </div>
+        <br>
+        <button><span class="generate" id="generate">Generate Password</span></button>
+      </div>
+      <div class="developed">
+        <lable for="developed">Developed By </lable>
+        <a href="https://github.com/THR3eCATO" target="_blank">THR3eCATO</a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+  </html>
