@@ -2,7 +2,7 @@
 
 Create next-generation passwords that are secure against cyber attacks.
 
-* You can create passwords between 8-30 characters.
+* You can create passwords between 8-20 characters.
 * Strengthen your passwords using symbols, numbers, lowercase and uppercase letters.
 * To copy your password, move the cursor to the password box and press the copy button.
 
