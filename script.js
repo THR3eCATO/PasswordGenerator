@@ -24,9 +24,9 @@ const symbol = "~!@#$%^&*()_+=|";
  }
  function generatePassword() {
     const len = lenEl.value;
-    if (len < 8 || len > 20) {
-    alert("Number must be between 8 and 20");
-    throw new TypeError("Number must be between 8 and 20");
+    if (len < 1 || len > 100) {
+    alert("Number must be between 1 and 100");
+    throw new TypeError("Number must be between 1 and 100");
     }
     let password = "";
     for (let i = 0; i < len; i++) {
