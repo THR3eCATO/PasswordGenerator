@@ -1,4 +1,6 @@
-﻿# Password Generator
+![Post](https://user-images.githubusercontent.com/102430003/181304913-17400823-d092-4b7c-b13b-74aec98eead9.png)
+
+## Password Generator
 
 Create next-generation passwords that are secure against cyber attacks.
 
